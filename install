@@ -1,0 +1,26 @@
+ -- cara menjalankan project drizzle db postgresql --
+
+1. install drizzle
+    - npm install drizzle-kit --save-dev
+    - npm install drizzle-orm pg
+
+2. push script drizzle to db postgresql 
+    // sesuaikan ke db yang telah dibuat \\
+    - npx drizzle-kit push
+
+3. install env
+    - npm install cross-env --save-dev
+    - npm install dotenv
+
+4. install socket (optional)
+    - npm install socket.io
+    - npm install --save-dev
+
+5. jalankan project
+    - npm run dev
+
+6. install dependencies
+    - npm install firebase
+    - npm install @tanstack/react-query
+    - npm install react-hook-form
+    - npm install zod  # untuk validation
